@@ -1,20 +1,28 @@
 <div align="center">
 
-# Hi there, I'm Minh 👋
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a0e1a,100:00ADD8&height=220&section=header&text=Hi%20there%2C%20I%27m%20Minh%20%F0%9F%91%8B&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Cloud%20Native%20Engineer&descAlignY=58&descSize=18&descColor=8be9fd&animation=fadeIn)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&lines=Backend+Engineer+%7C+Go+%2B+Node.js;Microservices+%7C+Cloud+Native+%7C+DevOps;Building+scalable+systems+on+AWS+EKS" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00ADD8&background=0D111700&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+%E2%AD%90+Go+%2B+Node.js+%2B+React;Microservices+%7C+Cloud+Native+%7C+DevOps;Building+scalable+systems+from+UI+to+Infrastructure;Clean+Architecture+%7C+DDD+%7C+Event-Driven" alt="Typing SVG" />
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/naminh24032003?label=Follow&style=social)](https://github.com/naminh24032003)
+[![GitHub followers](https://img.shields.io/github/followers/naminh24032003?label=Follow&style=flat-square&color=00ADD8&labelColor=0d1117&logo=github&logoColor=white)](https://github.com/naminh24032003)
 &nbsp;
-![Profile Views](https://komarev.com/ghpvc/?username=naminh24032003&color=00ADD8&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=naminh24032003&color=00ADD8&style=flat-square&label=Profile+Views)
+&nbsp;
+![Stars](https://img.shields.io/github/stars/naminh24032003?style=flat-square&color=ffd700&labelColor=0d1117&logo=github&logoColor=ffd700&label=Total+Stars)
 
 </div>
 
+<br/>
+
 ---
 
-## 🧑‍💻 About Me
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🌌 About Me
 
 ```go
 package main
@@ -22,149 +30,187 @@ package main
 import "fmt"
 
 type Developer struct {
-    Name        string
-    Role        string
-    Passion     []string
-    CurrentWork string
-    Learning    []string
+	Name     string
+	Role     string
+	Location string
+	Stack    []string
+	Mindset  string
 }
 
 func main() {
-    me := Developer{
-        Name:        "Minh",
-        Role:        "Backend Engineer",
-        Passion:     []string{"Microservices", "Cloud Native", "Clean Architecture", "DevOps"},
-        CurrentWork: "Building production-grade task management platform (Go + NestJS + AWS EKS)",
-        Learning:    []string{"Advanced Kubernetes", "eBPF", "Rust"},
-    }
+	me := Developer{
+		Name:     "Minh",
+		Role:     "Full Stack Developer",
+		Location: "Vietnam 🇻🇳",
+		Stack: []string{
+			"Go", "NestJS", "React",
+			"Next.js", "Vue", "K8s",
+		},
+		Mindset: "Ship fast. Scale smart.",
+	}
 
-    fmt.Printf("👋 Hey! I'm %s — %s\n", me.Name, me.Role)
-    fmt.Printf("🚀 Currently: %s\n", me.CurrentWork)
+	fmt.Println("⭐ " + me.Mindset)
 }
 ```
 
+</td>
+<td width="50%" valign="top">
+
+### 🚀 Currently
+
+```yaml
+🔭 Working on:
+  - Production microservices on AWS EKS
+  - Full stack task management platform
+
+🌱 Learning:
+  - Advanced Kubernetes & Service Mesh
+  - eBPF & Linux Networking internals
+
+💡 Passionate about:
+  - Clean Architecture & DDD
+  - Cloud Native & DevOps culture
+  - Open Source contribution
+
+🎯 2025 Goals:
+  - Contribute to major Go OSS projects
+  - Build SaaS product from 0 to production
+```
+
+</td>
+</tr>
+</table>
+
 ---
 
-## 🛠️ Tech Stack
+## ✨ Tech Stack
 
-### 🔵 Backend
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kratos-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-</p>
+<div align="center">
 
 ### 🎨 Frontend
 
-<p align="left">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue.js-0D1117?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
+  <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6" />
+  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/TailwindCSS-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4" />
+  <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26" />
+  <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6" />
+</p>
+
+### 🔵 Backend
+
+<p>
+  <img src="https://img.shields.io/badge/Go-0D1117?style=for-the-badge&logo=go&logoColor=00ADD8" />
+  <img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=339933" />
+  <img src="https://img.shields.io/badge/NestJS-0D1117?style=for-the-badge&logo=nestjs&logoColor=E0234E" />
+  <img src="https://img.shields.io/badge/GraphQL-0D1117?style=for-the-badge&logo=graphql&logoColor=E10098" />
+  <img src="https://img.shields.io/badge/gRPC-0D1117?style=for-the-badge&logo=google&logoColor=4285F4" />
+  <img src="https://img.shields.io/badge/REST%20API-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688" />
+  <img src="https://img.shields.io/badge/Protobuf-0D1117?style=for-the-badge&logo=google&logoColor=4285F4" />
 </p>
 
 ### 🗄️ Databases & Cache
 
-<p align="left">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=47A248" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
+  <img src="https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=DC382D" />
+  <img src="https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1" />
 </p>
 
-### 📨 Messaging & Communication
+### 📨 Messaging & Event Streaming
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/Protocol%20Buffers-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+<p>
+  <img src="https://img.shields.io/badge/Apache%20Kafka-0D1117?style=for-the-badge&logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSocket-0D1117?style=for-the-badge&logo=socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/RabbitMQ-0D1117?style=for-the-badge&logo=rabbitmq&logoColor=FF6600" />
 </p>
 
-### ☁️ Cloud & DevOps
+### ☁️ Cloud & Infrastructure
 
-<p align="left">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amazon%20EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amazon%20ECR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" />
+<p>
+  <img src="https://img.shields.io/badge/Amazon%20AWS-0D1117?style=for-the-badge&logo=amazonaws&logoColor=FF9900" />
+  <img src="https://img.shields.io/badge/Amazon%20EKS-0D1117?style=for-the-badge&logo=amazoneks&logoColor=FF9900" />
+  <img src="https://img.shields.io/badge/Kubernetes-0D1117?style=for-the-badge&logo=kubernetes&logoColor=326CE5" />
+  <img src="https://img.shields.io/badge/Terraform-0D1117?style=for-the-badge&logo=terraform&logoColor=7B42BC" />
+  <img src="https://img.shields.io/badge/Helm-0D1117?style=for-the-badge&logo=helm&logoColor=0F1689" />
+  <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED" />
+  <img src="https://img.shields.io/badge/ArgoCD-0D1117?style=for-the-badge&logo=argo&logoColor=EF7B4D" />
+  <img src="https://img.shields.io/badge/Kong-0D1117?style=for-the-badge&logo=kong&logoColor=00B4D8" />
 </p>
 
 ### 🔧 CI/CD & Tooling
 
-<p align="left">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logo=cmake&logoColor=white" />
+<p>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF" />
+  <img src="https://img.shields.io/badge/Jenkins-0D1117?style=for-the-badge&logo=jenkins&logoColor=D24939" />
+  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" />
+  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" />
+  <img src="https://img.shields.io/badge/Vim-0D1117?style=for-the-badge&logo=vim&logoColor=019733" />
 </p>
 
 ### 📊 Observability
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" />
-  <img src="https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kong-003459?style=for-the-badge&logo=kong&logoColor=white" />
+<p>
+  <img src="https://img.shields.io/badge/Prometheus-0D1117?style=for-the-badge&logo=prometheus&logoColor=E6522C" />
+  <img src="https://img.shields.io/badge/Grafana-0D1117?style=for-the-badge&logo=grafana&logoColor=F46800" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-0D1117?style=for-the-badge&logo=opentelemetry&logoColor=425CC7" />
+  <img src="https://img.shields.io/badge/Loki-0D1117?style=for-the-badge&logo=grafana&logoColor=F46800" />
 </p>
 
----
-
-## 🏗️ Architecture I Love Working With
-
-```
-                  ┌──────────────────────────────────────────────┐
-                  │             My Preferred Stack               │
-                  └──────────────────────────────────────────────┘
-
-  Client          API Gateway          Services              Infra
-  ──────          ───────────          ────────              ─────
-
-  React    ───►   Kong (JWT)   ───►   Go (Kratos)   ───►   EKS
-  Next.js  ───►   GraphQL BFF  ───►   NestJS        ───►   Terraform
-  Vue      ───►   gRPC         ───►   Kafka          ───►   ArgoCD
-
-  Pattern: DDD  +  CQRS  +  Hexagonal Architecture  +  Event-Driven
-```
-
-**Architecture principles I follow:**
-- 🎯 **DDD** — Rich domain models, aggregates, value objects, domain events
-- ⚡ **CQRS** — Separate read/write models for scalability
-- 🔷 **Hexagonal Architecture** — Ports & Adapters, clean dependency inversion
-- 📬 **Event-Driven** — Kafka-based async communication with Outbox pattern
-- 🔭 **Observability-first** — Trace everything with OpenTelemetry from day one
+</div>
 
 ---
 
-## 📌 Featured Project
+## 🏛️ Architecture Patterns I Apply
 
-### 🚀 [Task Management Platform](https://github.com/naminh24032003/Task_Management_BE)
-
-> Production-grade, multi-tenant task management system built with microservices
-
-- **4 microservices**: User (NestJS), Task (Go), Notification (Go), BFF-GraphQL (NestJS)
-- **Event-driven** with Kafka — services communicate asynchronously via domain events
-- **Full GitOps pipeline**: GitHub Actions → ECR → ArgoCD → EKS
-- **Observability stack**: Prometheus + Grafana + Loki + Tempo deployed on EKS
-- **IaC**: 100% Terraform-managed AWS infrastructure (EKS, ECR, VPC, IAM)
+<div align="center">
 
 ```
-Stack: Go · NestJS · gRPC · GraphQL · Kafka · MongoDB · Redis
-       AWS EKS · Terraform · Helm · ArgoCD · Jenkins
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  ⭐  Architectures I work with                                   ║
+  ╠══════════════════════════════════════════════════════════════════╣
+  ║                                                                  ║
+  ║  🔷  Microservices          🔶  Event-Driven Architecture        ║
+  ║  🔹  Clean Architecture     🔸  Serverless / FaaS               ║
+  ║  🌀  CQRS + Event Sourcing  🏠  Monolithic (Modular)            ║
+  ║  🧅  Hexagonal (Ports)      📡  BFF Pattern (GraphQL gateway)   ║
+  ║  📐  Domain-Driven Design   🔄  Saga / Outbox Pattern           ║
+  ║                                                                  ║
+  ╚══════════════════════════════════════════════════════════════════╝
 ```
+
+</div>
+
+| Pattern | When I use it |
+|---|---|
+| 🔷 **Microservices** | Large teams, high scalability needs, independent deployments |
+| 🏠 **Modular Monolith** | Startups, MVPs — fast delivery without distributed overhead |
+| 📬 **Event-Driven** | Decoupled services, async workflows, real-time notification |
+| 🧅 **Hexagonal Architecture** | Keeping domain pure, easy to swap infra (DB, queue, etc.) |
+| 🌀 **CQRS** | High read/write ratio, different scaling needs per operation |
+| ☁️ **Serverless** | Sporadic workloads, cost-optimized batch jobs, webhooks |
+| � **BFF + GraphQL** | Mobile/web clients needing tailored APIs from multiple services |
+
+---
+
+## 📌 Featured Projects
+
+<div align="center">
+
+[![Task Management BE](https://github-readme-stats.vercel.app/api/pin/?username=naminh24032003&repo=Task_Management_BE&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ADD8&icon_color=ffd700)](https://github.com/naminh24032003/Task_Management_BE)
+
+</div>
+
+> 🚀 **Task Management Platform** — Production-grade multi-tenant system
+>
+> `Go` `NestJS` `React` `GraphQL` `gRPC` `Kafka` `MongoDB` `Redis` `AWS EKS` `Terraform` `ArgoCD`
+> - 4 microservices with full GitOps pipeline (GitHub Actions → ECR → ArgoCD → EKS)
+> - Event-driven async notifications (Email, Push, In-App) via Kafka
+> - Full observability: Prometheus + Grafana + Loki + Tempo
 
 ---
 
@@ -172,48 +218,51 @@ Stack: Go · NestJS · gRPC · GraphQL · Kafka · MongoDB · Redis
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=naminh24032003&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naminh24032003&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=naminh24032003&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00ADD8&icon_color=ffd700&text_color=c9d1d9&ring_color=00ADD8" />
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naminh24032003&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00ADD8&text_color=c9d1d9&langs_count=8" />
 
-</div>
+<br/>
 
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=naminh24032003&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=naminh24032003&theme=tokyonight&hide_border=true&background=0d1117&ring=00ADD8&fire=ffd700&currStreakLabel=00ADD8&sideLabels=8be9fd&currStreakNum=ffffff&sideNums=ffffff&dates=888888)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-## 🎯 What I'm Working On
+## � Contribution Graph
 
-- 🔭 **Currently building** — Production task management platform on AWS EKS
-- 🌱 **Currently learning** — Advanced Kubernetes internals, service mesh (Istio), eBPF
-- 👯 **Looking to collaborate on** — Open source Go microservices, cloud-native projects
-- 💬 **Ask me about** — Go, NestJS, Microservices, DDD/CQRS, Kubernetes, Terraform
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/naminh24032003/naminh24032003/output/github-contribution-grid-snake-dark.svg)
+
+</div>
 
 ---
 
 ## 📫 Connect With Me
 
-<p align="left">
-  <a href="https://github.com/naminh24032003">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="mailto:naminh24032003@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
----
-
 <div align="center">
 
-*"Clean code always looks like it was written by someone who cares."*
-— Robert C. Martin
+<a href="https://github.com/naminh24032003">
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:naminh24032003@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" />
+</a>
+&nbsp;
+<a href="https://linkedin.com/in/naminh24032003">
+  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+</a>
+
+<br/><br/>
+
+> *"Any fool can write code that a computer can understand.*
+> *Good programmers write code that humans can understand."*
+> — Martin Fowler
 
 <br/>
 
-⭐ **If you find my work interesting, consider giving a star!** ⭐
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,50:0a0e1a,100:0d1117&height=120&section=footer&animation=fadeIn)
 
 </div>
